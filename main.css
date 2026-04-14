@@ -1,0 +1,113 @@
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+header {
+  padding: 20px 40px;
+  border-bottom: 1px solid darkgrey;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h1 {
+  font-size: 25px;
+  font-weight: 750;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1em;
+}
+
+.left-column{
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.right-item {
+  position: relative;
+  display: block;
+  text-decoration: none;
+}
+
+.right-item img {
+  width: 90%;
+  margin-left: 20px;
+}
+
+.right-item h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: black;
+  font-size: 18px;
+}
+
+.page-title {
+  padding-left: 20px;
+}
+
+.page-title h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.page-title p {
+  color: black;
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.graphic img {
+  width: 100%;
+  display: block;
+}
+
+.graphic h2 {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 200;
+}
+
+
+
+
+
+footer {
+  font-size: 15px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 1px solid darkgray;
+}
+
